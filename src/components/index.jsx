@@ -12,7 +12,7 @@ export default function Foldable() {
     const [selected, setSelected] = useState(null);
 
     function handleTheSingleSelection(currentId) {
-        console.log(currentId);
+        
     }
 
     return  <div className="wrapper">
@@ -21,12 +21,9 @@ export default function Foldable() {
                 data && data.length > 0 ?(
                     data.map((dataItem) => (
                         <div className="item">
-                            <div onClick =
-                                {
-                                ()=>handleTheSingleSelection(dataItem.id)
-                          } className="title">
+                            <div onClick ={ ()=>handleTheSingleSelection(dataItem.id)} className="title">
                                 
-                            <h3>{dataItem.question}</h3>
+                            <a href="somewhere">{dataItem.question}</a>
                                 <span>+</span>
                             </div>
                             </div>
