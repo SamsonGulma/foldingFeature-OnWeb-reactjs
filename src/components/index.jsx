@@ -17,7 +17,7 @@ export default function Foldable() {
                     data.map((dataItem) => (
                         <div className="item">
                           <div className="title">
-                            <h3>{dataItem.questions}</h3>
+                            <h3>{dataItem.question}</h3>
                                 <span>+</span>
                             </div>
                             </div>
