@@ -13,6 +13,7 @@ export default function Foldable() {
     const [selected, setSelected] = useState(null);
 
     function handleTheSingleSelection(currentId) {
+        console.log(currentId)
         
     }
 
@@ -24,7 +25,7 @@ export default function Foldable() {
                         <div className="item">
                             <div onClick ={ ()=>handleTheSingleSelection(dataItem.id)} className="title">
                                 
-                            <h1 href="somewhere">{dataItem.question}</h1>
+                            <h4 href="somewhere">{dataItem.question}</h4>
                                 <span>+</span>
                             </div>
                             </div>
