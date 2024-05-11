@@ -21,7 +21,7 @@ export default function Foldable() {
                 data && data.length > 0 ?(
                     data.map((dataItem) => (
                         <div className="item">
-                            <div onclick =
+                            <div onClick =
                                 {
                                 ()=>handleTheSingleSelection(dataItem.id)
                           } className="title">
