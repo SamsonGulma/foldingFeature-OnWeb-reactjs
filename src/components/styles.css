@@ -3,9 +3,9 @@
     padding: 0;
 }
 
-.title h4, span{
+.title a, span{
     text-decoration: none;
     color: white;
     background-color: rgb(47, 44, 44);
-
+    
 }
