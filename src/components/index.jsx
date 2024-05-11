@@ -24,7 +24,7 @@ export default function Foldable() {
                         <div className="item">
                             <div onClick ={ ()=>handleTheSingleSelection(dataItem.id)} className="title">
                                 
-                            <a href="somewhere">{dataItem.question}</a>
+                            <h1 href="somewhere">{dataItem.question}</h1>
                                 <span>+</span>
                             </div>
                             </div>
