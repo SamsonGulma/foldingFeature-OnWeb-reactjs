@@ -20,10 +20,10 @@ export default function Foldable() {
                         {i}
                     </h3> 
                 
-                    {
-                        setSelected(currentId)
-                    }
             </div>
+            
+            setSelected(currentId)
+                    
 
         }
         
