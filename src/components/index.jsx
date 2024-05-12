@@ -13,12 +13,8 @@ export default function Foldable() {
     const [selected, setSelected] = useState(null);
 
     function handleTheSingleSelection(currentId) {
-        console.log(currentId)
-        for (var i = 2; i === currentId; i++){
-            
-            return console.log(i)
-        }
-         setSelected(currentId)
+        console.log(currentId);
+        setSelected(currentId === selected ? null : currentId);
         
     }
 
