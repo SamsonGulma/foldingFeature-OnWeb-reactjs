@@ -15,12 +15,7 @@ export default function Foldable() {
     function handleTheSingleSelection(currentId) {
         console.log(currentId)
         for (var i = 0; i === currentId; i++){
-            <div>
-                <h3>
-                        {i}
-                    </h3> 
-                
-            </div>
+            console.log(i)
         }
          setSelected(currentId)
         
