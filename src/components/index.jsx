@@ -31,9 +31,9 @@ export default function Foldable() {
 
                             {
                                 selected === dataItem.id ? 
-                                    <div className="content">{dataItem.answer}
+                                    <div className="content">{dataItem.answer} </div>
 
-                                : null
+                            : null 
                             }
 
                             </div>
