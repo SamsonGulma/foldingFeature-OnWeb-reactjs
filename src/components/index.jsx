@@ -28,6 +28,14 @@ export default function Foldable() {
                             <h4 href="somewhere">{dataItem.question}</h4>
                                 <span>+</span>
                             </div>
+
+                            {
+                                selected === dataItem.id ? 
+                                    <div className="content">{dataItem.answer}
+
+                                : null
+                            }
+
                             </div>
                     ))
                 ) : (
