@@ -14,6 +14,7 @@ export default function Foldable() {
 
     function handleTheSingleSelection(currentId) {
         console.log(currentId)
+        setSelected(currentId)
         
     }
 
