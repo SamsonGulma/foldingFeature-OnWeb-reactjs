@@ -17,8 +17,9 @@ export default function Foldable() {
         setSelected(currentId === selected ? null : currentId);
         
     }
+    
 
-    return  <div className="wrapper">
+    return <div className="wrapper">
         <div className="foldable">
             {
                 data && data.length > 0 ?(
