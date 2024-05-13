@@ -9,6 +9,7 @@ const data = [
         id: '2',
         question: 'what are accordion or foldable components used for?',
         answer: 'to generate vertically stacked content in a page.',
+        
     },
      
       {
