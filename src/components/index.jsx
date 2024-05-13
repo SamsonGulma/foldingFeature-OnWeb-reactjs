@@ -8,8 +8,6 @@ import data from "./data"
 
 
 export default function Foldable() {
-
-
     const [selected, setSelected] = useState(null);
 
     function handleTheSingleSelection(currentId) {
